@@ -48,6 +48,6 @@
 
 - GRUB is most definitely overkill for and OS like this because the OS really only needs like 3MB I think while GRUB uses 27MB of the ISO. So it's probably going to get replaced with Limine
 
-- Make sure both *build-croww-i686-elf.sh* and *compile.sh* have +x permissions. If you get a permission error just run `chmod +x [script that's making the error occur]`
+- Make sure both *build-cross-i686-elf.sh* and *compile.sh* have +x permissions. If you get a permission error just run `chmod +x [script that's making the error occur]`
 
 - *compile.sh* creates the folder *dist/* where the .iso will be
