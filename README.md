@@ -50,4 +50,4 @@
 
 > Make sure both *build-croww-i686-elf.sh* and *compile.sh* have +x permissions. If you get a permission error just run `chmod +x [script that's making the error occur]`
 
-> *dist/* only exists for *compile.sh* to write to
+> *compile.sh* creates the folder *dist/* where the .iso will be
