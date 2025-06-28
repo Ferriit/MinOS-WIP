@@ -16,9 +16,9 @@
 
 - Install the ELF compiler using the script *build-cross-i686-elf.sh* (note that you need to have make, tar and wget installed)
 
-- Go into the *build/* directory and execute the script *compile.sh* while in the *build/* directory
+- Go into the *build/* directory and execute the script `compile.sh` while in the *build/* directory
 
-- Use *qemu-system-i386 -cdrom ../dist/minOS.iso* to run the generated ISO in *dist/* (you don't have to create a disk image as the OS can't yet read/write to disks)
+- Use `qemu-system-i386 -cdrom ../dist/minOS.iso` to run the generated ISO in *dist/* (you don't have to create a disk image as the OS can't yet read/write to disks)
 
 
 ## Dependencies:
